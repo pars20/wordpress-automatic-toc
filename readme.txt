@@ -1,6 +1,7 @@
 # MindMade TOC Auto for WordPress
 
-Hello there! 👋 Welcome to the official repository for the **MindMade TOC Auto** plugin. This simple but powerful plugin was crafted with care to automatically generate a clean, SEO-friendly Table of Contents for your WordPress posts.
+Hello there! 👋 
+Welcome to the official repository for the **MindMade TOC Auto** plugin. This simple but powerful plugin was crafted with care to automatically generate a clean, SEO-friendly Table of Contents for your WordPress posts.
 
 The goal was to create a lightweight, zero-configuration solution that improves user experience and article readability without slowing down your site.
 
