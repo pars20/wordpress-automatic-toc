@@ -1,0 +1,62 @@
+/* * MindMade TOC Auto - Stylesheet
+ * Author: Jafar Naghizadeh
+ */
+
+ :root {
+    --toc-padding: 1em;
+    --toc-radius: 0.4em;
+    --toc-bg-color: #f0f0f0;
+    --header-bg-color: rgba(255, 255, 255, 0.7);
+    --icon-bg-color: rgba(200, 200, 200, 0.5);
+    --icon-color: rgba(0, 0, 0, 0.5);
+    --transition-speed: 200ms;
+}
+
+.mindmade_toc_list {
+    display: block;
+    margin: 1em 0;
+    padding: var(--toc-padding);
+    max-width: 100%;
+    background-color: var(--toc-bg-color);
+    border-radius: var(--toc-radius);
+}
+
+.mindmade_toc_list h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Use align-items for flex alignment */
+    margin: 0.2em 0;
+    padding: 0.5em;
+    font-size: 1.2em;
+    background-color: var(--header-bg-color);
+    border-radius: 0.2em;
+    box-shadow: 0 0 1em -0.9em rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: box-shadow var(--transition-speed);
+}
+
+.mindmade_toc_list h2.is-open {
+    box-shadow: none;
+}
+
+.mindmade_toc_list h2::after {
+    content: '^';
+    display: flex; /* Use flex for perfect centering */
+    justify-content: center;
+    align-items: center;
+    width: 1.2em;
+    height: 1.2em;
+    padding: .2em .1em 0 .1em;
+    line-height: 1; /* Override line-height for flex centering */
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    color: var(--icon-color);
+    background-color: var(--icon-bg-color);
+    border-radius: 50%; /* Use 50% for a perfect circle */
+    transition: all var(--transition-speed);
+}
+
+.mindmade_toc_list h2.is-open::after {
+    transform: rotate(180deg); /* Use transform for rotation */
+    color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(200, 200, 200, 0.2);
+}
