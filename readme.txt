@@ -1,45 +1,44 @@
-# MindMade TOC Auto for WordPress
+### Hi there, I'm Jafar! 👋
 
-Hello there! 👋 
-Welcome to the official repository for the **MindMade TOC Auto** plugin. This simple but powerful plugin was crafted with care to automatically generate a clean, SEO-friendly Table of Contents for your WordPress posts.
+I'm a Senior Software Engineer with a deep passion for architecting and building scalable, high-performance web applications from the ground up. With over 14 years in the field, I love diving into complex back-end challenges, optimizing databases until they're blazing fast, and transforming ideas into robust, user-centric software.
 
-The goal was to create a lightweight, zero-configuration solution that improves user experience and article readability without slowing down your site.
-
----
-
-### ✨ Features
-
-* **Fully Automatic:** Generates a Table of Contents from the headings (`H1`-`H6`) in your post content automatically.
-* **SEO-Friendly:** Creates named anchors (IDs) for all headings and uses clean, crawlable links, which is great for search engines.
-* **Lightweight & Fast:** Built with pure, dependency-free JavaScript and optimized code to ensure minimal impact on your site's performance.
-* **Clean & Modern Design:** Comes with a simple, minimalist CSS that you can easily customize to match your theme.
-* **Collapsible:** The Table of Contents is collapsible, allowing users to show or hide it for a better reading experience.
+My core philosophy is to build systems that last. I focus on writing clean, maintainable PHP code and designing architectures that can grow and evolve. My most significant hands-on experience comes from engineering a social platform from a simple concept to a service supporting over 40,000 users, which taught me firsthand the importance of solid architecture and relentless performance tuning.
 
 ---
 
-### 🚀 Getting Started
+### My Tech Stack & Tools
 
-Getting this plugin up and running on your site is super easy.
-
-#### 1. Installation
-
-1.  Download the latest version of the plugin as a `.zip` file from this repository.
-2.  In your WordPress admin dashboard, navigate to **Plugins > Add New**.
-3.  Click the **Upload Plugin** button at the top of the page.
-4.  Choose the downloaded `.zip` file and click **Install Now**.
-5.  Once installed, click **Activate Plugin**.
-
-That’s it! The plugin is now active.
-
-#### 2. How It Works
-
-The plugin automatically scans the content of your posts. If it finds two or more heading tags (like `<h2>`, `<h3>`, etc.), it will generate a Table of Contents and place it at the beginning of the post.
-
-The list is nested based on the heading hierarchy (e.g., an `<h3>` will appear under its parent `<h2>`). Users can click the "Table of Contents" title to expand or collapse the list.
+* **Languages:** PHP | JavaScript | SQL | HTML5 | CSS3/SASS
+* **Frameworks & Libraries:** Laravel | WordPress | jQuery | Bootstrap
+* **Databases:** MySQL
+* **Tools:** Git | GitHub | GitHub Actions | Docker | Trello
+* **Methodologies:** CI/CD | Agile | Scrum | Kanban
 
 ---
 
-I hope this plugin is useful for you! If you have any ideas or find any issues, feel free to open an issue here on GitHub.
+### 🌱 What I'm currently up to:
 
-Happy writing!  
-Jafar Naghizadeh
+* Deepening my expertise in the Laravel ecosystem.
+* Exploring modern infrastructure and cloud deployment practices.
+* Actively seeking a new challenge as a Senior Software Engineer in Europe, where I can contribute to building innovative and impactful products.
+
+---
+
+### 🚀 Featured Project: NiniWeblog
+
+<img src="https://mindmade.ir/thm/up/niniweblog-screen-1400.jpg?1" alt="Blogging and Social Network for children: niniweblog.com" width="600">
+
+**NiniWeblog is a high-traffic social blogging platform I engineered from the ground up, scaling it to support over 40,000 active users and 7+ million database records.**
+
+This project was a deep dive into end-to-end development, from initial concept to deployment and long-term maintenance. It showcases my expertise in building robust, scalable, and user-centric applications.
+
+**Key Technologies & Concepts Applied:**
+
+`PHP` `MySQL` `JavaScript` `jQuery` `System Architecture` `Scalability` `Performance Optimization` `Web Security`
+
+---
+
+### 📫 Let's Connect:
+
+* Connect with me on **[LinkedIn](https://www.linkedin.com/in/jafarnaghizadeh)**.
+* Check out my work at **[MatisWeb.com](https://www.matisweb.com)**.
